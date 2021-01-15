@@ -22,6 +22,6 @@ class ApprenantController extends AbstractController
      */
     public function showApprenants()
     {
-        dd()
+        
     }
 }
