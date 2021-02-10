@@ -25,7 +25,7 @@ class ApprenantController extends AbstractController
     {
         $class="";
         $apprenant = $request->request->all();
-dd()
+
         $avatar = $request->files->get("avatar");
        
         $avatar = fopen($avatar->getRealPath(), "rb"); 
